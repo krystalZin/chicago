@@ -1,12 +1,18 @@
-body {
+* {
     margin: 0; 
-    padding: 0; 
+    padding: 0;
+}
+body {
+    background-color: #322D29;
+    color: white;
 }
 
 #population{
     display: flex;
     justify-content: space-between;
-    background-color:#705542 ;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
 }
 
 .title{
@@ -16,11 +22,19 @@ body {
     flex: 1;
 }
 
+#skyline > img {
+    width: 100%; 
+}
+
+
 #facts {
     display: flex;
     justify-content: space-between;
-    background-color: #D1C1A9;
     padding: 20px; 
+}
+
+.sub-title {
+    margin-bottom: 10px;
 }
 
 #facts > div {
@@ -28,24 +42,23 @@ body {
     padding: 20px; 
     box-sizing: border-box; 
     margin: 0; 
-    border: 1px solid #705542; 
-}
-
-#facts > div:nth-child(1) {
-    background-color: #FFD700; 
-}
-
-#facts > div:nth-child(2) {
-    background-color: #00FFFF; 
-}
-
-#facts > div:nth-child(3) {
-    background-color: #FFA07A; 
+    border: 2px solid wheat; 
 }
 
 #attractions{
     display: flex;
     justify-content: space-between;
-    background-color: #BD9C80;
+    padding: 20px;
+}
+
+.images{
+    width: 350px;
+}
+
+footer{
+    text-align: center;
+    background-color: #CECDCE;
+    padding: 20px 0;
+    color: black;
 }
 
