@@ -1,36 +1,42 @@
 * {
-    margin: 0; 
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 body {
     background-color: #322D29;
     color: white;
+    font-family: Arial, sans-serif;
 }
 
-#population{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    margin: 0;
+    background-color: #1E1C1A;
 }
 
-.title{
+.title {
     font-size: x-large;
 }
-.title, .numbers{
+
+.numbers {
     flex: 1;
+    text-align: right;
 }
 
 #skyline > img {
-    width: 100%; 
+    width: 100%;
+    height: auto;
 }
 
-
 #facts {
+    padding: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px; 
 }
 
 .sub-title {
@@ -38,27 +44,103 @@ body {
 }
 
 #facts > div {
-    flex: 0 0 calc(33.33% - 20px); 
-    padding: 20px; 
-    box-sizing: border-box; 
-    margin: 0; 
-    border: 2px solid wheat; 
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 20px;
+    border: 2px solid wheat;
+    padding: 20px;
 }
 
-#attractions{
+#attractions {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
 }
 
-.images{
-    width: 350px;
+.attraction {
+    flex: 0 0 calc(25% - 20px);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
-footer{
+.images {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    text-align: center;
+}
+
+footer {
     text-align: center;
     background-color: #CECDCE;
     padding: 20px 0;
     color: black;
 }
 
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title {
+        font-size: large;
+    }
+
+    .numbers {
+        margin-top: 10px;
+    }
+
+    #facts > div {
+        flex: 0 0 calc(100% - 20px); 
+    }
+
+    #attractions .attraction {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    #facts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    #facts > div {
+        flex: 0 0 calc(33.33% - 20px); 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title {
+        font-size: medium;
+    }
+
+    .numbers {
+        margin-top: 10px;
+    }
+
+    #facts > div {
+        flex: 1 1 calc(100% - 20px); 
+    }
+
+    #attractions {
+        flex-direction: column;
+    }
+
+    #attractions .attraction {
+        flex: 1 1 calc(100% - 20px);
+    }
+}
