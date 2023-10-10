@@ -1,151 +1,24 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
 body {
     background-color: #322D29;
     color: white;
     font-family: Arial, sans-serif;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+.header {
     background-color: #1E1C1A;
 }
 
-.title {
-    font-size: x-large;
-}
-
-.numbers {
-    flex: 1;
-    text-align: right;
-}
-
-#skyline > img {
-    width: 100%;
-    height: auto;
-}
-
-#facts {
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.sub-title {
-    margin-bottom: 10px;
-}
-
-#facts > div {
-    flex: 0 0 calc(33.33% - 20px);
-    margin-bottom: 20px;
-    border: 2px solid wheat;
-    padding: 20px;
-}
-
-#attractions {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.attraction {
-    flex: 0 0 calc(25% - 20px);
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-
-.images {
-    width: 100%;
-    height: auto;
-}
-
-.text {
-    text-align: center;
-    padding-top: 10px;
-}
-
-.text > h3 {
-    padding-bottom: 10px;
-}
-
-footer {
+.footer {
     text-align: center;
     background-color: wheat;
     padding: 20px 0;
     color: black;
 }
 
-@media only screen and (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .title {
-        font-size: large;
-    }
-
-    .numbers {
-        margin-top: 10px;
-    }
-
-    #facts > div {
-        flex: 0 0 calc(100% - 20px); 
-    }
-
-    #attractions .attraction {
-        flex: 0 0 calc(50% - 20px);
-    }
-}
-
-@media only screen and (max-width: 1366) {
-    #facts {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    
-    #facts > div {
-        flex: 0 0 calc(33.33% - 20px); 
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .title {
-        font-size: medium;
-    }
-
-    .numbers {
-        margin-top: 10px;
-    }
-
-    #facts > div {
-        flex: 1 1 calc(100% - 20px); 
-    }
-
-    #attractions {
-        flex-direction: column;
-    }
-
-    #attractions .attraction {
-        flex: 1 1 calc(100% - 20px);
-    }
+.box {
+    border: 2px solid wheat;
 }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chicago</title>
+    <link rel="shortcut icon" href="public/bean.png" type="image/x-icon">
+</head>
+
+<body>
+    <header id="population">
+        <div class="title">
+            <h1>Chicago, Illinois</h1>
+        </div>
+        <div class="numbers">
+            <h2>Population: 8,937,000</h2>
+        </div>
+    </header>
+    <section id="skyline">
+        <img src="public/skyline.jpg" alt="Chicago Skyline" >
+    </section>
+    <section id="facts">
+        <div>
+            <h2 class="sub-title">History</h2>
+            <p>Chicago's history is a story of remarkable transformation. From its early days as a strategic trading
+                post to its incorporation as a bustling city in 1837, the Windy City has always been on the move. The
+                Great Chicago Fire of 1871, though devastating, led to innovative urban planning and the birth of the
+                skyscraper. During Prohibition, Chicago earned notoriety for its speakeasies and gangsters, with Al
+                Capone at the helm. The city also played a pivotal role in the Civil Rights Movement, with Dr. Martin
+                Luther King Jr.'s efforts against racial segregation. Today, Chicago stands as a global metropolis
+                celebrated for its diverse culture, iconic architecture, and sports legacy, showcasing a rich and
+                ever-evolving history.</p>
+        </div>
+
+        <div>
+            <h2 class="sub-title">World's First Skyscraper</h2>
+            <p>Chicago's claim to fame as the birthplace of the world's first skyscraper rests on the shoulders of the
+                remarkable Home Insurance Building. Erected in 1885, this 10-story marvel of architecture defied
+                conventional building standards of its time. Designed by William Le Baron Jenney, the structure employed
+                a
+                revolutionary steel skeleton framework, enabling it to reach unprecedented heights. This innovation
+                paved
+                the way for the soaring skyscrapers that now define modern cityscapes worldwide. The Home Insurance
+                Building
+                stands as a testament to Chicago's pioneering spirit and its enduring legacy in the evolution of
+                architectural design.</p>
+
+        </div>
+        <div>
+            <h2 class="sub-title">Modern Chicago</h2>
+            <p>Contemporary Chicago is a dynamic metropolis that thrives on its rich cultural tapestry and iconic
+                landmarks. Chicago's culinary scene is equally impressive, boasting renowned restaurants serving
+                everything from deep-dish pizza to gourmet fusion cuisine. Beyond culture and cuisine, sports are a
+                source of immense pride, with loyal fan bases supporting teams like the Chicago Cubs in baseball and the
+                Chicago Bulls in basketball. Together, these elements paint a vibrant portrait of a city that embodies
+                the best of contemporary urban living. Whether you're exploring its world-class museums or strolling
+                along the scenic Lake Michigan shoreline, Chicago offers something for everyone to enjoy.</p>
+        </div>
+    </section>
+    <section id="attractions">
+        <div class="attraction park">
+            <img src="public/park.jpg" class="images" alt="Mellennium Park">
+            <div class="text">
+                <h3>Mellennium Park</h3>
+                <p>Millennium Park is a vibrant urban oasis in Chicago, known for its iconic Cloud Gate sculpture and lush gardens.</p>
+            </div>
+        </div>
+
+        <div class="attraction art-institute">
+            <img src="public/art-institute.jpg" class="images" alt="Art Institute">
+            <div class="text">
+                <h3>The Art Institute of Chicago</h3>
+                <p>The Art Institute of Chicago houses an extensive collection of art, including works by renowned artists like Grant Wood and Vincent van Gogh.</p>
+            </div>
+        </div>
+
+        <div class="attraction pier">
+            <img src="public/pier.jpg" class="images" alt="Navy Pier">
+            <div class="text">
+                <h3>Navy Pier</h3>
+                <p>Navy Pier is a popular entertainment destination on Lake Michigan, featuring attractions, dining, and stunning views of the Chicago skyline.</p>
+            </div>
+        </div>
+
+        <div class="attraction skydeck">
+            <img src="public/skydeck.jpg" class="images" alt="Willis Tower">
+            <div class="text">
+                <h3>Willis Tower Skydeck</h3>
+                <p>Willis Tower Skydeck offers breathtaking panoramic views of Chicago from its glass-floored observation deck on the 103rd floor.</p>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <p>Designed by Ngu Eain Zin</p>
+    </footer>
+</body>
+
+</html>
